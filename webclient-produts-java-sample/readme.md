@@ -1,0 +1,27 @@
+# Web Client Consumer Java Sample
+
+The project aims to expose product rest resources to be consumed.
+
+## Requirements
+
+Java 11+
+
+IntelliJ IDEA / Netbeans / Eclipse
+
+## Usage
+
+```python
+getProducts:
+curl --location --request GET 'http://localhost:9082/api/v1/products'
+
+getProduct:
+curl --location --request GET 'http://localhost:9082/api/v1/products/1'
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
