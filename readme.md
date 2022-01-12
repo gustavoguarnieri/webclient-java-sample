@@ -18,11 +18,11 @@ MongoDB
 
 2) Start project
 
-3) getProducts:
-   curl --location --request GET 'http://localhost:9082/api/v1/products'
+3) Synchronous call:
+   curl --location --request GET 'http://localhost:9080/api/v1/products/1/images/sync'
 
-   getProduct:
-   curl --location --request GET 'http://localhost:9082/api/v1/products/1'
+   Asynchronous call:
+   curl --location --request GET 'http://localhost:9080/api/v1/products/1/images/async'
 ```
 
 ## Contributing
