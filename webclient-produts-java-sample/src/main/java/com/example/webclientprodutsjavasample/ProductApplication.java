@@ -2,6 +2,7 @@ package com.example.webclientprodutsjavasample;
 
 import com.example.webclientprodutsjavasample.constants.Products;
 import com.example.webclientprodutsjavasample.repositories.ProductRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,6 +12,7 @@ public class ProductApplication implements CommandLineRunner {
 
     private final ProductRepository repository;
 
+    @Autowired
     public ProductApplication(ProductRepository repository) {
         this.repository = repository;
     }
