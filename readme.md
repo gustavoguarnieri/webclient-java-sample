@@ -1,6 +1,6 @@
 # Web Client Consumer Java Sample
 
-The project aims to expose product rest resources to be consumed.
+The project is an example of using the http web client to promote synchronous and asynchronous https calls.
 
 ## Requirements
 
