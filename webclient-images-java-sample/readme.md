@@ -11,8 +11,13 @@ IntelliJ IDEA / Netbeans / Eclipse
 ## Usage
 
 ```python
-getImages:
-curl --location --request GET 'http://localhost:9081/api/v1/products/3/images'
+
+1) Execute command: docker-compose up -d (the file docker-compose.yml will be executed).
+
+2) Start project
+
+3) getImages:
+   curl --location --request GET 'http://localhost:9081/api/v1/products/1/images'
 ```
 
 ## Contributing
