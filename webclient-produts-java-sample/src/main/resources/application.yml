@@ -1,2 +1,8 @@
 server:
   port: 9082
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:masterkey@localhost:27017/webclientprodutsjavasample?authSource=admin
+      auto-index-creation: true

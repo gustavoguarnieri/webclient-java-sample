@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: masterkey
+      DB_NAME: webclient-java-sample
+      DB_USER: user
+      DB_PASSWORD: masterkey
+    ports:
+      - "27017:27017"
