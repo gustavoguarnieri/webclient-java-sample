@@ -1,4 +1,4 @@
-# Web Client Consumer Java Sample
+# Web Client Java Sample
 
 The project is an example of using the http web client to promote synchronous and asynchronous https calls.
 

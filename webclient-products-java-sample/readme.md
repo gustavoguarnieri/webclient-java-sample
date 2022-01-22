@@ -1,4 +1,4 @@
-# Web Client Consumer Java Sample
+# Web Client Product Java Sample
 
 The project aims to expose product rest resources to be consumed.
 
