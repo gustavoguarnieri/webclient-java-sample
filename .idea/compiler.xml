@@ -20,5 +20,10 @@
         <module name="webclient-images-java-sample.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webclient-produts-java-sample" target="11" />
+      <module name="webclient-produts-java-sample.main" target="11" />
+      <module name="webclient-produts-java-sample.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
