@@ -1,4 +1,4 @@
-# Web Client Consumer Java Sample
+# Web Client Image Java Sample
 
 The project aims to expose image rest resources to be consumed.
 
@@ -7,6 +7,8 @@ The project aims to expose image rest resources to be consumed.
 Java 11+
 
 IntelliJ IDEA / Netbeans / Eclipse
+
+MongoDB
 
 ## Usage
 

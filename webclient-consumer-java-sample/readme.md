@@ -8,8 +8,6 @@ Java 11+
 
 IntelliJ IDEA / Netbeans / Eclipse
 
-MongoDB
-
 ## Usage
 
 ```python
