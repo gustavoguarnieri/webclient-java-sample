@@ -19,11 +19,15 @@ MongoDB
 2) Start project
 
 3) Synchronous call:
-   curl --location --request GET 'http://localhost:9080/api/v1/products/1/images/sync'
+   curl --location --request GET 'http://localhost:9080/webclient-consumer/api/v1/products/1/images/sync'
 
    Asynchronous call:
-   curl --location --request GET 'http://localhost:9080/api/v1/products/1/images/async'
+   curl --location --request GET 'http://localhost:9080/webclient-consumer/api/v1/products/1/images/async'
 ```
+
+## Documentation
+
+[Swagger](http://localhost:9080/webclient-consumer/swagger-ui/index.html)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
