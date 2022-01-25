@@ -23,7 +23,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .enable(enableSwagger)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("br.com.example.webclientconsumerjavasample.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.example.webclientconsumerjavasample.controller"))
                 .paths(PathSelectors.any())
                 .build()
                 .useDefaultResponseMessages(false)
