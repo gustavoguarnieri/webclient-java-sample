@@ -19,8 +19,12 @@ MongoDB
 2) Start project
 
 3) getImages:
-   curl --location --request GET 'http://localhost:9081/api/v1/products/1/images'
+   curl --location --request GET 'http://localhost:9081/webclient-images/api/v1/products/1/images'
 ```
+
+## Documentation
+
+[Swagger](http://localhost:9081/webclient-images/swagger-ui/index.html)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

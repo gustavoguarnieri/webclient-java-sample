@@ -1,6 +1,7 @@
 buildscript {
 	ext {
-		springBootVersion = "2.6.2"
+		springBootVersion = "2.5.9"
+		springfoxVersion = "3.0.0"
 	}
 }
 
@@ -28,6 +29,9 @@ dependencies {
 	implementation "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
 	implementation "org.springframework.boot:spring-boot-starter-webflux:${springBootVersion}"
 	implementation "org.springframework.boot:spring-boot-starter-data-mongodb:${springBootVersion}"
+	implementation "io.springfox:springfox-swagger2:${springfoxVersion}"
+	implementation "io.springfox:springfox-swagger-ui:${springfoxVersion}"
+	implementation "io.springfox:springfox-boot-starter:${springfoxVersion}"
 	implementation "org.modelmapper:modelmapper:3.0.0"
 	compileOnly "org.projectlombok:lombok"
 	developmentOnly "org.springframework.boot:spring-boot-devtools"

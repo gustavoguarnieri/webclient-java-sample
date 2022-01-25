@@ -1,5 +1,10 @@
 server:
   port: 9081
+  servlet:
+    context-path: /webclient-images
+
+swagger:
+  enabled: true
 
 spring:
   data:
