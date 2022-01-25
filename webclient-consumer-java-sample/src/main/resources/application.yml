@@ -1,2 +1,7 @@
 server:
   port: 9080
+  servlet:
+    context-path: /webclient-consumer
+
+swagger:
+  enabled: true
