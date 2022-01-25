@@ -1,5 +1,11 @@
 server:
   port: 9082
+  servlet:
+    context-path: /webclient-products
+
+swagger:
+  enabled: true
+
 
 spring:
   data:

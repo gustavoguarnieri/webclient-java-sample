@@ -19,11 +19,15 @@ MongoDB
 2) Start project
 
 3) getProducts:
-   curl --location --request GET 'http://localhost:9082/api/v1/products'
+   curl --location --request GET 'http://localhost:9082/webclient-products/api/v1/products'
 
    getProduct:
-   curl --location --request GET 'http://localhost:9082/api/v1/products/1'
+   curl --location --request GET 'http://localhost:9082/webclient-products/api/v1/products/1'
 ```
+
+## Documentation
+
+[Swagger](http://localhost:9082/webclient-products/swagger-ui/index.html)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
